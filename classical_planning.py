@@ -8,6 +8,7 @@ Original file is located at
 """
 
 def is_goal_state(current_state, goal_state):
+    return current_state == goal_state
     #TYPE THE CODE HERE[WHERE THE CURRENT STATE EQUALS THE GOAL STATE]
 
 def apply_action(current_state, action_effect):
