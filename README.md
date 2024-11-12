@@ -45,7 +45,7 @@ print(plan)
 ```
 
 # Program:
-``
+```
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -92,7 +92,7 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 
-``
+```
 # Output:
 ![Screenshot 2024-11-04 084130](https://github.com/user-attachments/assets/8557f551-9ae2-4e2a-8dee-1ac2deef447f)
 
